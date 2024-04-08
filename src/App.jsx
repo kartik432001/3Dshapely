@@ -1,22 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+
+import Logo  from "../public/Logo.jpg";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>
-      3D - Shahpely
-      </h1>
-      <h3>
-        Comming Soon....
-      </h3>
-     
+      <div className="main">
+        <img src={Logo} style={{height:"100%" , width:"10vw"}}/>
+        <h3>Coming Soon....</h3>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
